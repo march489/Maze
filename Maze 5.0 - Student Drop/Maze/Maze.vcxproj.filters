@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{f04c9286-e219-4fb7-b306-f9717e9aba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maze Solvers">
+      <UniqueIdentifier>{17b840d9-3c0b-4821-8b80-da62aa9e8fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_File">
+      <UniqueIdentifier>{64cd1644-283c-45fa-bff5-ea44f9e61c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maze">
+      <UniqueIdentifier>{5f61e01d-05ad-4a05-8605-0ae7630c7ba0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Framework\ThreadFramework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeSolver.h">
+      <Filter>Maze Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="SkippingMazeSolver.h">
+      <Filter>Maze Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_File</Filter>
+    </ClInclude>
+    <ClInclude Include="Maze.h">
+      <Filter>Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="MTMazeStudentSolver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Choice.h">
+      <Filter>Maze Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Maze Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Maze Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionFoundSkipException.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STMazeSolverBFS.h">
+      <Filter>Maze Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="STMazeSolverDFS.h">
+      <Filter>Maze Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="TopDownSolver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomUpSolver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="maze.cpp">
+      <Filter>Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="Direction.cpp">
+      <Filter>Maze Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="TopDownSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BottomUpSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\File\lib\File_X64Release.lib">
+      <Filter>_File</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_X64Debug.lib">
+      <Filter>_File</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

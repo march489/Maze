@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Maze">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIgEAAFAAgBAQAQAAAAAAAAAQAAAAgAAAAAAYAAAA=</HashCode>
+      <FileName>Maze.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazeSolver">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>MazeSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MTMazeStudentSolver">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MTMazeStudentSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SolutionFoundSkip" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAIAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>SkippingMazeSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkippingMazeSolver" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAACAAAAAQgAAAA=</HashCode>
+      <FileName>SkippingMazeSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STMazeSolverBFS" Collapsed="true">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAAAAAAAAAAAAABBAABAoAAAIAAAAAAAAEAAQCAA=</HashCode>
+      <FileName>STMazeSolverBFS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="STMazeSolverDFS" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>STMazeSolverDFS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Student_SolutionFoundSkip" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Student_SkippingMazeSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Student_SkippingMazeSolver" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAgAAAAAAAAAAQgAAAA=</HashCode>
+      <FileName>Student_SkippingMazeSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Student_STMazeSolverDFS" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Student_STMazeSolverDFS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
